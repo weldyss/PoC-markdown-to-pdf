@@ -1,5 +1,5 @@
-require_relative './md_converter'
-require_relative './create_pdf'
+require_relative 'create_html'
+require_relative 'create_pdf'
 
 class ConvertMarkdown
   def initialize(text)
