@@ -1,0 +1,27 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.8)
+    matrix (0.4.2)
+    pdf-core (0.10.0)
+    prawn (2.5.0)
+      matrix (~> 0.4)
+      pdf-core (~> 0.10.0)
+      ttfunk (~> 1.8)
+    redcarpet (3.6.0)
+    ttfunk (1.8.0)
+      bigdecimal (~> 3.1)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  prawn
+  redcarpet
+
+RUBY VERSION
+   ruby 3.3.1p55
+
+BUNDLED WITH
+   2.5.10
