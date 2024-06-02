@@ -7,13 +7,13 @@ class ConvertMarkdown
   end
 
   def convert_to_html
-    markdown = MdConverter.convert
+    markdown = ConvertHtml.convert
 
     markdown.render(@text)
   end
 
   def convert_to_pdf
-    markdown = MdConverter.convert
+    markdown = ConvertHtml.convert
 
     text_to_print = markdown.render(@text)
 
