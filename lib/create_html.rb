@@ -6,11 +6,13 @@ class CreateHtml
   end
 
   class << self
-    def self.renderer
+    private
+
+    def renderer
       Redcarpet::Render::HTML
     end
 
-    def self.extensions
+    def extensions
       { with_toc_data: true, tables: true }
     end
   end
